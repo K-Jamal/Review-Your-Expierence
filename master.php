@@ -92,7 +92,7 @@ $vendors = $query->fetchAll(PDO::FETCH_ASSOC); ?>
         //shows the cards in the browser
         echo ' <div class="col-lg-4">';
         echo ' <div class="card m-5 shadow p-3 mb-5 bg-body-tertiary rounded">';
-        echo ' <img src="/sd23-p01-reviewyourexperience-team-7/img/' . htmlspecialchars($data['img']). '" class="img-fluid rounded-start" alt="Card img" />'; //db data img
+        echo ' <img src="' . htmlspecialchars($data['img']). '" class="img-fluid rounded-start" alt="Card img" />'; //db data img
         echo ' <div class="card-body">';
         echo ' <h5 class="card-title text-center">'. htmlspecialchars($data['name']) .'</h5>';
         echo ' <p class="card-text text-center"> Page made by Team Info</p>';
