@@ -83,6 +83,9 @@ $vendors = $query->fetchAll(PDO::FETCH_ASSOC); ?>
                     <li class="nav-item text-light">
                         <a class="nav-link text-light" href="contact.php">Contacts</a>
                     </li>
+                    <li class="nav-item text-light">
+                        <a class="nav-link text-light" href="admin.php">admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
