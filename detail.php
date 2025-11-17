@@ -148,7 +148,7 @@ if (isset($_POST['send'])) {
                 echo ' <div class="card m-3 border-1 border-primary">';
                 echo ' <div class="row g-0">';
                 echo ' <div class="col-md-4">';
-                echo ' <img src="/sd23-p01-reviewyourexperience-team-7/img/' . htmlspecialchars($data['img']). '" class="img-fluid rounded-start" alt="Card img" />'; //db data img
+                echo ' <img src="' . htmlspecialchars($data['img']). '" class="img-fluid rounded-start" alt="Card img" />'; //db data img
                 echo ' </div>';
                 echo ' <div class="col-md-8">';
                 echo ' <div class="card-body">';
